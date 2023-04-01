@@ -1,4 +1,4 @@
-# Data Augmentation, Building and Training Image Models in Tensorflow
+# Tensorflow
 
 References: 
 
