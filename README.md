@@ -7,7 +7,7 @@ References:
 - https://www.tensorflow.org/api_docs/python/tf/keras/applications
 - https://pypi.org/project/model-profiler/
 - https://www.tensorflow.org/tutorials/keras/save_and_load
-
+- https://towardsdatascience.com/step-by-step-guide-to-using-pretrained-models-in-keras-c9097b647b29
 
 
 
