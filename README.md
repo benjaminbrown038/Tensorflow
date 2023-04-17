@@ -9,6 +9,9 @@ References:
 - https://www.tensorflow.org/tutorials/keras/save_and_load
 - https://www.tensorflow.org/api_docs/python/tf/keras/applications/convnext/preprocess_input
 - https://towardsdatascience.com/step-by-step-guide-to-using-pretrained-models-in-keras-c9097b647b29
+- https://www.tensorflow.org/tutorials/keras/save_and_load
+- https://www.tensorflow.org/guide/checkpoint
+- https://www.tensorflow.org/tfmodels/vision/semantic_segmentation
 
 
 
