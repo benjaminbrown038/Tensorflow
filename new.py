@@ -36,9 +36,13 @@ loss = CategoricalCrossentropy()
 
 ac = Accuracy()
 
-model.compile( loss = loss, optimizer = opt, accuracy = ac)
+model.compile(loss = loss, optimizer = opt, accuracy = ac)
 
-model.fit(x_train, y_train, validation_data = (x_test,y_test))
+model.fit(x_train,
+            y_train,
+            validation_data = (x_test,y_test),
+            epochs = 25,
+            batch_size = batch_size)
 
 model.load_weights('model.h5')
 

@@ -54,5 +54,3 @@ model.fit(x_train,y_train,
 model.load_weights("model.h5")
 
 model.save('./model.h5')
-
-#deploy_model = load_model('./model.h5',compile=True)
