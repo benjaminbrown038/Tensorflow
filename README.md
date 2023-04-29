@@ -1,6 +1,6 @@
 ## Tensorflow
 
-References: 
+References:
 
 - https://machinelearningmastery.com/how-to-configure-image-data-augmentation-when-training-deep-learning-neural-networks/
 - https://blog.keras.io/building-powerful-image-classification-models-using-very-little-data.html
@@ -12,6 +12,4 @@ References:
 - https://www.tensorflow.org/tutorials/keras/save_and_load
 - https://www.tensorflow.org/guide/checkpoint
 - https://www.tensorflow.org/tfmodels/vision/semantic_segmentation
-
-
-
+- https://www.tensorflow.org/tutorials/keras/keras_tuner
