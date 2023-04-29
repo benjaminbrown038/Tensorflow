@@ -44,6 +44,6 @@ model.fit(x_train,
             epochs = 25,
             batch_size = batch_size)
 
-model.load_weights('model.h5')
-
 model.save('./model.h5')
+
+model.load_weights('model.h5')
