@@ -17,7 +17,7 @@
 
 ##### Layers for Image Model (Convolutions, Pooling, Activation)
 
-https://keras.io/api/layers/
+- https://keras.io/api/layers/
 
 
 ##### Optimizers 
