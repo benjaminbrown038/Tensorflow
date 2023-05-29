@@ -1,6 +1,0 @@
-import tensorflow
-
-
-
-def inference():
-    
