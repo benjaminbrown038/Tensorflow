@@ -5,6 +5,12 @@
 - https://keras.io/api/datasets/https://keras.io/api/datasets/
 
 
+##### Augmenting Data 
+
+- https://keras.io/api/data_loading/image/
+- https://www.tensorflow.org/api_docs/python/tf/keras/preprocessing/image/ImageDataGenerator
+
+
 ##### Model 
 
 - https://keras.io/api/models/
