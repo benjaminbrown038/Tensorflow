@@ -27,30 +27,18 @@ model.add(Conv2D(10,(3,3),padding='same',activation = 'softmax'))
 model.add(MaxPool2D((4,4),padding = 'same'))
 model.add(Flatten())
 
-# optimizers
 ada = Adadelta(lr = .01)
 adam = Adam()
 sgd1 = SGD(lr = .01)
 sgd2 = SGD(lr = .001)
-
-# loss
 loss = CategoricalCrossentropy()
-
-# metrics
 ac = Accuracy()
 
 model.compile(loss = loss, optimizer = opt, accuracy = ac)
-
-test_batch_size = len(y_test)
-train_batch_size = len(y_train)
-batch_size = test_batch_size + train_batch_size
 
 model.fit(x_train,y_train,
           validation_data = (x_test,y_test),
           epochs = 25,
           batch_size = batch_size)
-
-
-model.load_weights("model.h5")
 
 model.save('./model.h5')
