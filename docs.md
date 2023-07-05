@@ -1,13 +1,9 @@
+Tutorials:
+
+Docs: 
+
+- https://keras.io/api/datasets/
 - https://keras.io/api/data_loading/
-- https://keras.io/api/data_loading/image/
 - https://www.tensorflow.org/api_docs/python/tf/keras/preprocessing/image/ImageDataGenerator
-- https://keras.io/api/models/
 - https://keras.io/api/callbacks/
-- https://keras.io/api/layers/
-- https://keras.io/api/optimizers/
-- https://keras.io/api/metrics/
-- https://keras.io/api/losses/
-- https://keras.io/guides/training_with_built_in_methods/
-- https://keras.io/api/callbacks/
-- https://keras.io/guides/training_with_built_in_methods/
 - https://keras.io/api/models/
